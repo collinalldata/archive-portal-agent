@@ -1,0 +1,133 @@
+{
+  "_comment": [
+    "Registry of the S3 buckets in account 000000000000, discovered 2026-09-07.",
+    "Mirrors what `aws s3 ls` returns — keep in sync when buckets are added or retired.",
+    "in_scope=true means list it and ingest it. in_scope=false means audited-and-excluded",
+    "(deferred by the project owner, or out of project scope). in_scope=null means undecided.",
+    "site_id is a short id for the source website a bucket backs up, where one is known.",
+    "Counts are from the first discovery pass and are indicative, not authoritative —",
+    "scripts/s3_list_buckets.py writes exact figures to data/raw/inventory/<bucket>.meta.json."
+  ],
+  "as_of": "2026-09-07",
+  "account_id": "000000000000",
+  "identity": "arn:aws:iam::000000000000:user/project-owner",
+  "buckets": [
+    {
+      "name": "www.forest-library.example",
+      "region": "us-east-1",
+      "site_id": "forest_library",
+      "in_scope": true,
+      "approx_objects": 165011,
+      "approx_bytes": 818333967079,
+      "notes": "Largest bucket by far — 83% of the corpus by size. 49k PDFs, 49k JPGs. Also holds ~29k .eml files; see exclude_prefixes."
+    },
+    {
+      "name": "www.canopycoalition.example",
+      "region": "us-east-1",
+      "site_id": "canopy_coalition",
+      "in_scope": true,
+      "approx_objects": 7786,
+      "approx_bytes": 7396301386,
+      "notes": "4,942 PDFs. Highest-confidence primary source material."
+    },
+    {
+      "name": "www.forest-stewards.example",
+      "region": "us-east-1",
+      "site_id": "forest_stewards",
+      "in_scope": true,
+      "approx_objects": 8996,
+      "approx_bytes": 9937372307,
+      "notes": "Largely whole-server FTP backups; content sits alongside CMS code. See exclude_prefixes."
+    },
+    {
+      "name": "www.woodlands-council.example",
+      "region": "us-east-1",
+      "site_id": "woodlands_council",
+      "in_scope": true,
+      "approx_objects": 1943,
+      "approx_bytes": 864052614,
+      "notes": "575 PDFs + 493 .docx. The live site is now a stub, so this bucket may be the only surviving copy."
+    },
+    {
+      "name": "www.clearcut-watch.example",
+      "region": "us-east-2",
+      "site_id": "clearcut_watch",
+      "in_scope": true,
+      "approx_objects": 186,
+      "approx_bytes": 701151732,
+      "notes": "Only bucket outside us-east-1. Any aws CLI call against it needs --region us-east-2."
+    },
+    {
+      "name": "www.timberland-network.example",
+      "region": "us-east-1",
+      "site_id": null,
+      "in_scope": null,
+      "approx_objects": 15083,
+      "approx_bytes": 1014274720,
+      "notes": "Not in the original site list; possibly the unnamed seventh site. Raw WordPress install dump (6,158 .php files), not extracted content."
+    },
+    {
+      "name": "Publications",
+      "region": "us-east-1",
+      "site_id": null,
+      "in_scope": null,
+      "approx_objects": 7,
+      "approx_bytes": 82803393,
+      "notes": "Seven objects: four Keynote decks, one PDF, one PPT. Oldest bucket (2013). Provenance unknown."
+    },
+    {
+      "name": "personal-media",
+      "region": "us-east-1",
+      "site_id": null,
+      "in_scope": false,
+      "approx_objects": 52467,
+      "approx_bytes": 150519577073,
+      "notes": "DEFERRED by the project owner 2026-09-07. Personal media archive, not a website: 14k photos, 5k mp3, 2.6k m4a, 2.2k .mov. Holds 2,465 PDFs that may be worth revisiting separately."
+    }
+  ],
+  "exclude_prefixes": {
+    "_comment": [
+      "Keys under these prefixes are listed for the inventory but must NOT be ingested",
+      "without an explicit decision. Two categories:",
+      "(1) CMS and server code: the buckets hold whole-server FTP backups, so they contain",
+      "    the web application itself (admin endpoints, editors, plugins), not publishable content.",
+      "(2) Personal correspondence: needs the author's consent before any of it is indexed."
+    ],
+    "www.forest-stewards.example": [
+      "ftpArchive/",
+      "ftpArchive2023/"
+    ],
+    "www.canopycoalition.example": [
+      "2017FTParchive/"
+    ],
+    "www.woodlands-council.example": [
+      "2023BackUp/"
+    ],
+    "www.forest-library.example": [
+      "Resources/AJbackUp!/"
+    ],
+    "www.timberland-network.example": [
+      "wp-admin/",
+      "wp-includes/",
+      "wp-content/plugins/",
+      "wp-content/themes/",
+      "wp-content/mu-plugins/",
+      "cms/assets/",
+      "ZIP/"
+    ],
+    "_pending_consent": {
+      "_comment": "Excluded pending an explicit decision from the founder.",
+      "patterns": [
+        "**/*.eml"
+      ],
+      "approx_objects": 29420,
+      "notes": "Personal email correspondence across www.forest-library.example. Default: excluded."
+    }
+  },
+  "open_questions": [
+    "Is www.timberland-network.example the seventh site, and do we want the WordPress dump or a fresh extraction?",
+    "What are the ~29,000 .eml files in www.forest-library.example, and is any of that correspondence publishable? Default: excluded until the founder says otherwise.",
+    "What is the 'Publications' bucket and who created it?",
+    "No bucket exists for field-notes.example or canopy-archive.example — both need fresh scrapes."
+  ]
+}

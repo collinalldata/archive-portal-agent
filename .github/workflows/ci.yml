@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dev dependencies
+        run: pip install -r requirements.txt
+
+      # The pipeline library is stdlib-only by design (docs/decisions.md 0004).
+      # These tests keep the inventory classifiers, the sampling estimator, and the
+      # schema/dataclass agreement from rotting silently.
+      - name: Tests
+        run: python -m pytest -q
+
+      - name: Compile check
+        run: python -m compileall -q pipeline scripts
+
+      - name: Shell syntax
+        run: for s in scripts/*.sh; do bash -n "$s"; done
+
+      - name: Config and schema are valid JSON
+        run: |
+          python -c "import json; json.load(open('config/buckets.json'))"
+          python -c "import json; json.load(open('docs/schema/document-record.schema.json'))"
+
+      # data/raw/ and data/processed/ are gitignored for a reason — a stray
+      # multi-hundred-MB inventory dump in git history is not removable in practice.
+      - name: No large files committed
+        run: |
+          large=$(find . -path ./.git -prune -o -type f -size +2M -print)
+          if [ -n "$large" ]; then
+            echo "Files over 2MB are committed:"; echo "$large"
+            echo "Large data belongs in S3 or gitignored data/ — see CLAUDE.md §9."
+            exit 1
+          fi

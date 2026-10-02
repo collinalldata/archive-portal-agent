@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/collinalldata/archive-portal-agent/docs/schema/document-record.schema.json",
+  "title": "Document Record",
+  "description": "One record per document in the archive. This is the stable intermediate format described in CLAUDE.md §5. Everything downstream — search index, static site, hosted search service — is generated from these records, which is what keeps the architecture decision reversible.",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "source_site",
+    "content_type",
+    "capture_date",
+    "text_sha256",
+    "provenance"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable identifier. Derived deterministically from source_site + original_url (or S3 key when there is no URL) so re-running ingestion produces the same ID. See pipeline/records.py:stable_id.",
+      "pattern": "^[a-z0-9][a-z0-9_-]*-[0-9a-f]{12}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Human-readable title. From the document itself where possible; fall back to a cleaned filename and set title_inferred."
+    },
+    "title_inferred": {
+      "type": "boolean",
+      "default": false,
+      "description": "True when the title was derived from a filename or heuristic rather than read from the document."
+    },
+    "body_text": {
+      "type": "string",
+      "description": "Extracted plain text, never raw HTML. Absent text means extraction failed; see extraction.status."
+    },
+    "source_site": {
+      "type": "string",
+      "description": "Site id; matches the site_id field in config/buckets.json.",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "content_type": {
+      "type": "string",
+      "enum": [
+        "pdf",
+        "html",
+        "image",
+        "office",
+        "video",
+        "audio",
+        "text",
+        "other"
+      ],
+      "description": "Normalized content class, not the raw MIME type. mime_type carries the specific value."
+    },
+    "mime_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Date the material was published, as an ISO 8601 date or year-month or year. Null when unknown — never guess. Provenance is a first-class feature (CLAUDE.md §4).",
+      "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+    },
+    "publication_date_precision": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "day",
+        "month",
+        "year",
+        null
+      ]
+    },
+    "publication_date_source": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "document_metadata",
+        "page_byline",
+        "url_path",
+        "filename",
+        "manual",
+        null
+      ],
+      "description": "How the publication date was determined. Matters because much of this corpus has no reliable date."
+    },
+    "capture_date": {
+      "type": "string",
+      "format": "date-time",
+      "description": "When we captured or ingested this copy. Always known."
+    },
+    "provenance": {
+      "type": "object",
+      "description": "Where this came from. Every search result must be able to show this.",
+      "required": [
+        "s3_key"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "original_url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The URL this document lived at on its source site. Null for objects found only in S3 with no recoverable URL."
+        },
+        "s3_bucket": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "s3_key": {
+          "type": "string",
+          "description": "Key of the preserved original. The original is always kept; the derived text is never the only copy (CLAUDE.md §5)."
+        },
+        "s3_etag": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "byte_size": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "file_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Checksum of the original bytes. Distinct from text_sha256, which is used for dedup.",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "retrieved_from": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "s3_archive",
+            "live_site",
+            "wayback",
+            null
+          ],
+          "description": "Which acquisition path produced this copy."
+        }
+      }
+    },
+    "text_sha256": {
+      "type": "string",
+      "description": "SHA-256 of the normalized extracted text. Deduplication key — the same PDF is likely archived under several filenames across sites, so we dedup on content, not filename (CLAUDE.md §5).",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "duplicate_of": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "When this record shares text_sha256 with an earlier record, the id of the one we treat as canonical. Duplicates are kept, not deleted — they carry distinct provenance."
+    },
+    "extraction": {
+      "type": "object",
+      "description": "How the text was obtained and how much to trust it.",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "ok",
+            "empty",
+            "ocr",
+            "ocr_low_confidence",
+            "failed",
+            "skipped"
+          ]
+        },
+        "method": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "enum": [
+            "pdftotext",
+            "tesseract",
+            "textract",
+            "html_extract",
+            "plain",
+            null
+          ]
+        },
+        "char_count": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "ocr_confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "error": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tool_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "description": "Optional subject tags. Left empty until there is a reason to have them — do not invent a taxonomy before Phase 1."
+    },
+    "schema_version": {
+      "type": "string",
+      "const": "1"
+    }
+  }
+}

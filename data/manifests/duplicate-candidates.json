@@ -1,0 +1,307 @@
+{
+  "groups_spanning_multiple_buckets": 5041,
+  "identical_content_groups": 31446,
+  "largest_groups": [
+    {
+      "copies": 92,
+      "etag": "56d4439768678cd301f9a9f140f9440b",
+      "keys": [
+        "www.timberland-network.example::redacted/78d1ffafbbdc891f.php",
+        "www.timberland-network.example::redacted/1270f7b105fb0981.php",
+        "www.timberland-network.example::redacted/b6401c4da4a7dc03.php",
+        "www.timberland-network.example::redacted/3ec4294521d00d03.php",
+        "www.timberland-network.example::redacted/d4979edf0c47eb0b.php",
+        "www.timberland-network.example::redacted/da8c529874a949dd.php"
+      ]
+    },
+    {
+      "copies": 40,
+      "etag": "2a91cd6a6364fb0814cc3e8ba61bfbb9",
+      "keys": [
+        "www.timberland-network.example::redacted/27e6e5121e5b5f45.php",
+        "www.timberland-network.example::redacted/2366e9bd500300ce.php",
+        "www.timberland-network.example::redacted/ea0e8317f921007b.php",
+        "www.timberland-network.example::redacted/6cb451573c026cf9.php",
+        "www.timberland-network.example::redacted/0f38c2544559c933.php",
+        "www.timberland-network.example::redacted/f04ff260e7193db9.php"
+      ]
+    },
+    {
+      "copies": 40,
+      "etag": "5e9968953526f3e62243a9f37e9f093f",
+      "keys": [
+        "www.forest-stewards.example::redacted/e6b58de4a51f1e63",
+        "www.forest-stewards.example::redacted/525b8da8fb90042b.txt",
+        "www.forest-stewards.example::redacted/7324d928e359dff7.txt",
+        "www.forest-stewards.example::redacted/9ebf02996a52575b.txt",
+        "www.forest-stewards.example::redacted/bf766bfcf2089517.txt",
+        "www.forest-stewards.example::redacted/d49569d9681e25bf.txt"
+      ]
+    },
+    {
+      "copies": 37,
+      "etag": "bd3d2e2fe0c37c3458bbd6e1550878d6",
+      "keys": [
+        "www.canopycoalition.example::redacted/1f9af8a7f5714b3f.txt",
+        "www.canopycoalition.example::redacted/a3e32d905434d852.txt",
+        "www.canopycoalition.example::redacted/740a91b240a7b7c8.txt",
+        "www.canopycoalition.example::redacted/d0af89380b40a4d7.txt",
+        "www.canopycoalition.example::redacted/61ee051cdd9ecc2f.txt",
+        "www.canopycoalition.example::redacted/e833d9941f30fd31.txt"
+      ]
+    },
+    {
+      "copies": 33,
+      "etag": "45e9ddf617303d171ce2c6ce07366e22",
+      "keys": [
+        "www.forest-stewards.example::redacted/9bee75098dadcccb.tiff",
+        "www.forest-library.example::redacted/9bb9553679561474.tiff",
+        "www.forest-library.example::redacted/8082792f2bfcede3.tiff",
+        "www.forest-library.example::redacted/3f13c8eb054b6304.tiff",
+        "www.forest-library.example::redacted/d282e0501d1d10d4.tiff",
+        "www.forest-library.example::redacted/938bc7a5ca846da6.tiff"
+      ]
+    },
+    {
+      "copies": 30,
+      "etag": "2a1f1b52ce97bcd1db289dfd182bab12",
+      "keys": [
+        "www.canopycoalition.example::redacted/d0cf58394075cc2c.dat",
+        "www.canopycoalition.example::redacted/1bea96a9fc5daaea.dat",
+        "www.canopycoalition.example::redacted/c047493b964b9796.&da",
+        "www.canopycoalition.example::redacted/8bb4cd32d141787a.new",
+        "www.canopycoalition.example::redacted/fff371fa927c0a86.&da",
+        "www.canopycoalition.example::redacted/4a4147c0756b70a1.new"
+      ]
+    },
+    {
+      "copies": 26,
+      "etag": "364cec32d3b2896bb5313a84f54280c8",
+      "keys": [
+        "www.timberland-network.example::redacted/a971845196b522a2.php",
+        "www.timberland-network.example::redacted/2e9e462ac10a52dc.php",
+        "www.timberland-network.example::redacted/f02ad3d2fc7e0bff.php",
+        "www.timberland-network.example::redacted/d168a978d52270eb.php",
+        "www.timberland-network.example::redacted/e81d77f4787c9b67.php",
+        "www.timberland-network.example::redacted/b43566155b876982.php"
+      ]
+    },
+    {
+      "copies": 25,
+      "etag": "ae3b3df9970b49b6523e608759bc957d",
+      "keys": [
+        "www.canopycoalition.example::redacted/c1c665f986fd1d3b.cpg",
+        "www.canopycoalition.example::redacted/71e57927280db8a0.cpg",
+        "www.canopycoalition.example::redacted/106c4ed6843254bc.cpg",
+        "www.canopycoalition.example::redacted/31091c529b1d4f0b.cpg",
+        "www.canopycoalition.example::redacted/c07a2eeae04b6d71.cpg",
+        "www.forest-library.example::redacted/25f241351c6ab7da.cpg"
+      ]
+    },
+    {
+      "copies": 22,
+      "etag": "bd920a1059aa5965d99b98ffbf48179d",
+      "keys": [
+        "www.forest-library.example::redacted/4b115ae1e8e1bb60.docx",
+        "www.forest-library.example::redacted/9566b8411df57438.docx",
+        "www.forest-library.example::redacted/8ced99d93fcaf992.docx",
+        "www.forest-library.example::redacted/1724f6f00146b3fe.docx",
+        "www.forest-library.example::redacted/3bdcd6d93676035a.docx",
+        "www.forest-library.example::redacted/8cfae644f0cbd475.docx"
+      ]
+    },
+    {
+      "copies": 20,
+      "etag": "fea7ead5fcd0a35c11853c066e19b1c2",
+      "keys": [
+        "www.canopycoalition.example::redacted/c222a6dc1fd4c07a.dat",
+        "www.canopycoalition.example::redacted/dc8bce438321a7cb.dat",
+        "www.canopycoalition.example::redacted/468afef7fdeb628a.dat",
+        "www.canopycoalition.example::redacted/f69634ab9a559233.dat",
+        "www.canopycoalition.example::redacted/2fde5f0cd293e118.dat",
+        "www.canopycoalition.example::redacted/3af2fc728503a27e.dat"
+      ]
+    },
+    {
+      "copies": 20,
+      "etag": "2a96c15b97289f91865f1e95ab4b4413",
+      "keys": [
+        "www.canopycoalition.example::redacted/8f41d971ffecfee6.dat",
+        "www.canopycoalition.example::redacted/d0db6534e63bc48d.dat",
+        "www.canopycoalition.example::redacted/006a36e8c7cdd929.dat",
+        "www.canopycoalition.example::redacted/46f63c7c5ee01ace.dat",
+        "www.canopycoalition.example::redacted/33fe893d7e41920d.dat",
+        "www.canopycoalition.example::redacted/a87a5e96b43cb52c.dat"
+      ]
+    },
+    {
+      "copies": 20,
+      "etag": "66c22ba473a36a190b4697985430018b",
+      "keys": [
+        "www.canopycoalition.example::redacted/27284ee53cdfba44.dat",
+        "www.canopycoalition.example::redacted/3117db512eecef7a.dat",
+        "www.canopycoalition.example::redacted/b2034d95f93f8517.dat",
+        "www.canopycoalition.example::redacted/858429decd03d5c8.dat",
+        "www.canopycoalition.example::redacted/51625743c21b0452.dat",
+        "www.canopycoalition.example::redacted/f697f9c6b7a91d07.dat"
+      ]
+    },
+    {
+      "copies": 20,
+      "etag": "f1ad7ea95146e70bf1947960f6ceb0ec",
+      "keys": [
+        "www.canopycoalition.example::redacted/2a2f0fcfea0d20e2.dat",
+        "www.canopycoalition.example::redacted/9f5aa967ccc95f8e.dat",
+        "www.canopycoalition.example::redacted/6df68241fb83dad2.dat",
+        "www.canopycoalition.example::redacted/7e4ce59f3faed85b.dat",
+        "www.canopycoalition.example::redacted/9d02eb3fcc997ce6.dat",
+        "www.canopycoalition.example::redacted/143823abdbc16273.dat"
+      ]
+    },
+    {
+      "copies": 18,
+      "etag": "093427501f56b4ba8de46973ce301363",
+      "keys": [
+        "www.canopycoalition.example::redacted/8169af3c8fd9c464.pdf",
+        "www.canopycoalition.example::redacted/7ada80fcda8f223c.pdf",
+        "www.canopycoalition.example::redacted/9c42e99648049305.pdf",
+        "www.canopycoalition.example::redacted/b52a2940c85635fb.pdf",
+        "www.forest-library.example::redacted/f2cebca68342797e.pdf",
+        "www.forest-library.example::redacted/991b4bf31da1666f.pdf"
+      ]
+    },
+    {
+      "copies": 16,
+      "etag": "12bf9e19374920de3146a64775f46a5e",
+      "keys": [
+        "www.timberland-network.example::redacted/4d4df2b4d83d617c.gif",
+        "www.timberland-network.example::redacted/52d5bee1922c620c.gif",
+        "www.woodlands-council.example::redacted/b700f1b9c3dac4e0.gif",
+        "www.woodlands-council.example::redacted/48e9270203cec1aa.gif",
+        "www.canopycoalition.example::redacted/df7747b90e29f036.gif",
+        "www.canopycoalition.example::redacted/69550ddcd5d94205.gif"
+      ]
+    },
+    {
+      "copies": 16,
+      "etag": "ff583527064d066feb20306cb928407f",
+      "keys": [
+        "www.forest-stewards.example::redacted/cb2e09bfe36b925e.doc",
+        "www.forest-stewards.example::redacted/7c5eabd5985c0f82.txt",
+        "www.forest-stewards.example::redacted/63f81c07c9926933.doc",
+        "www.forest-stewards.example::redacted/3170073fc9da353f.doc",
+        "www.forest-stewards.example::redacted/ae49b7f94e00c9f3.dot",
+        "www.forest-stewards.example::redacted/bd866e8c11dc2c38.dot"
+      ]
+    },
+    {
+      "copies": 16,
+      "etag": "227da2fc2a6bfef0f8b45476060bc9cf",
+      "keys": [
+        "www.forest-stewards.example::redacted/ae60017be0e95693.png",
+        "www.forest-stewards.example::redacted/b0e32730579ba2f7.png",
+        "www.forest-stewards.example::redacted/6cadc91e12e3f26e.png",
+        "www.forest-stewards.example::redacted/2c1797ecdf71d89c.png",
+        "www.forest-stewards.example::redacted/f58ec4e807cd865b.png",
+        "www.forest-stewards.example::redacted/64809de3dfe3c98c.png"
+      ]
+    },
+    {
+      "copies": 16,
+      "etag": "504bdb463ba540c29ddc50c7434d925d",
+      "keys": [
+        "www.forest-library.example::redacted/80338e15b7cfaef0.png",
+        "www.forest-library.example::redacted/7bfa8e16a1d6ef00.png",
+        "www.forest-library.example::redacted/0823cf9c5b37e67f.png",
+        "www.forest-library.example::redacted/7931e32791b179fa.png",
+        "www.forest-library.example::redacted/5faa68152ff91bf5.png",
+        "www.forest-library.example::redacted/dc7fce6c2e1e2c84.png"
+      ]
+    },
+    {
+      "copies": 15,
+      "etag": "325472601571f31e1bf00674c368d335",
+      "keys": [
+        "www.timberland-network.example::redacted/d21d84ee7377e579.gif",
+        "www.timberland-network.example::redacted/a0dbb28f10074b2e.gif",
+        "www.woodlands-council.example::redacted/3b387661b97b48ce.gif",
+        "www.canopycoalition.example::redacted/76feca757b0b5f96.gif",
+        "www.forest-stewards.example::redacted/9d7121978381f6ad.gif",
+        "www.forest-stewards.example::redacted/b699914e9e41895c.gif"
+      ]
+    },
+    {
+      "copies": 15,
+      "etag": "ffd2861fe71e644a1bfdf93838489ce0",
+      "keys": [
+        "www.timberland-network.example::redacted/1ccdb470782cab30.jpg",
+        "www.timberland-network.example::redacted/8dc315a5012d6a62.jpg",
+        "www.timberland-network.example::redacted/8b1e6e79f026d9b6.jpg",
+        "www.forest-library.example::redacted/b41a3ad3dcaf2341.jpg",
+        "www.forest-library.example::redacted/a6693c15b7cf3262.jpg",
+        "www.forest-library.example::redacted/fa5ff164f405ef03.jpg"
+      ]
+    },
+    {
+      "copies": 15,
+      "etag": "a7af7074fdf342021674fe647c79ac03",
+      "keys": [
+        "www.canopycoalition.example::redacted/31778e727114b928.pdf",
+        "www.forest-library.example::redacted/3c1ae951c52d0bb8.pdf",
+        "www.forest-library.example::redacted/6dc4f69a9b5e6807.pdf",
+        "www.forest-library.example::redacted/04b9643a6c6d244a.pdf",
+        "www.forest-library.example::redacted/ed7ebf59e0fd2d0d.pdf",
+        "www.forest-library.example::redacted/fb452f8b00ee67fa.pdf"
+      ]
+    },
+    {
+      "copies": 14,
+      "etag": "5df3783492b848adde42124a1e9cf383",
+      "keys": [
+        "www.woodlands-council.example::redacted/66d4d6b780ec6980.js",
+        "www.woodlands-council.example::redacted/906217b9b1bffda1.js",
+        "www.canopycoalition.example::redacted/d7f19573494b0029.js",
+        "www.canopycoalition.example::redacted/725b8f3294e28ec0.js",
+        "www.forest-stewards.example::redacted/0c31446c22b3c583.js",
+        "www.forest-stewards.example::redacted/f35ecea6a6a7cd68.js"
+      ]
+    },
+    {
+      "copies": 14,
+      "etag": "bc1d4bb5eb21275757ce213002affdae",
+      "keys": [
+        "www.canopycoalition.example::redacted/bfa6df2eb4be697f.pdf",
+        "www.canopycoalition.example::redacted/45d6eeaf52e9660d.pdf",
+        "www.canopycoalition.example::redacted/8805ae29be0a3b33.pdf",
+        "www.canopycoalition.example::redacted/de04e6ada523bdf9.pdf",
+        "www.forest-library.example::redacted/adac57b2d5d992e5.pdf",
+        "www.forest-library.example::redacted/0290464b0a040846.pdf"
+      ]
+    },
+    {
+      "copies": 14,
+      "etag": "836f6ef31b98cae1e2a9424e0afa47fc",
+      "keys": [
+        "www.canopycoalition.example::redacted/a4c58cec32de855f.pdf",
+        "www.canopycoalition.example::redacted/6949c4dedc0ff4c0.pdf",
+        "www.canopycoalition.example::redacted/35a7b3be705c38bd.pdf",
+        "www.canopycoalition.example::redacted/71937de231e5906e.pdf",
+        "www.forest-library.example::redacted/7fa308e399e7bf97.pdf",
+        "www.forest-library.example::redacted/d233dd4dac1f7f3c.pdf"
+      ]
+    },
+    {
+      "copies": 14,
+      "etag": "edbf422234b8f3d4a38a507f26e2765a",
+      "keys": [
+        "www.canopycoalition.example::redacted/7914549ee099ca98.pdf",
+        "www.canopycoalition.example::redacted/0f4f9f9e690a5d8e.pdf",
+        "www.canopycoalition.example::redacted/5e048db32adfcd83.pdf",
+        "www.canopycoalition.example::redacted/cfbedce17efbeecb.pdf",
+        "www.forest-library.example::redacted/ade45bb044ddfabf.pdf",
+        "www.forest-library.example::redacted/172fb712ab5bf3f0.pdf"
+      ]
+    }
+  ],
+  "redundant_objects": 47736
+}

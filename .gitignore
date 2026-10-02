@@ -1,0 +1,49 @@
+# --- Data: keep the directories, ignore the payloads ---
+# Policy (CLAUDE.md §9): gitignore anything large; commit manifests and checksums.
+data/raw/*
+data/processed/*
+data/originals/*
+!data/**/.gitkeep
+!data/manifests/
+data/manifests/*
+!data/manifests/.gitkeep
+!data/manifests/*.csv
+!data/manifests/*.json
+
+# Large inventory dumps live in data/raw/ and are covered above, but be explicit
+# so nobody commits a 200MB listing by accident.
+*.json.gz
+*.jsonl.gz
+*.tar
+*.tar.gz
+*.zip
+
+# --- Credentials: never commit ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+aws-credentials*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Scratch ---
+scratch/
+tmp/
+*.log

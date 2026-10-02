@@ -1,0 +1,1471 @@
+{
+  "buckets": [
+    {
+      "bucket": "Publications",
+      "by_content_type": {
+        "office": 1,
+        "other": 5,
+        "pdf": 1
+      },
+      "by_extension": {
+        "(none)": 1,
+        ".key": 4,
+        ".pdf": 1,
+        ".ppt": 1
+      },
+      "by_material_class": {
+        "document": 1,
+        "media": 5,
+        "noise": 1
+      },
+      "by_modified_year": {
+        "2013": 4,
+        "2015": 3
+      },
+      "by_storage_class": {
+        "STANDARD": 7
+      },
+      "bytes_by_content_type": {
+        "office": 13842944,
+        "other": 51226433,
+        "pdf": 17734016
+      },
+      "bytes_by_material_class": {
+        "document": 17734016,
+        "media": 65069377,
+        "noise": 0
+      },
+      "duplication": {
+        "etag_identical_groups": 0,
+        "etag_redundant_objects": 0,
+        "largest_etag_groups": [],
+        "name_size_collision_groups": 0
+      },
+      "listing_complete": true,
+      "object_count": 7,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 24288097,
+        "mean": 11829056,
+        "min": 0,
+        "p50": 13842944,
+        "p90": 22428363,
+        "p99": 24288097
+      },
+      "text_extractable_count": 2,
+      "text_extractable_share": 0.2857,
+      "total_bytes": 82803393,
+      "total_bytes_human": "79.0 MB",
+      "zero_byte_count": 1,
+      "zero_byte_sample": [
+        "redacted/b6ea40ce85dcd75f"
+      ]
+    },
+    {
+      "bucket": "www.timberland-network.example",
+      "by_content_type": {
+        "html": 6300,
+        "image": 3404,
+        "other": 5145,
+        "pdf": 18,
+        "text": 216
+      },
+      "by_extension": {
+        "(none)": 1738,
+        ".css": 643,
+        ".eot": 62,
+        ".gif": 390,
+        ".html": 137,
+        ".jpg": 1101,
+        ".js": 1514,
+        ".json": 175,
+        ".less": 142,
+        ".md": 30,
+        ".mo": 269,
+        ".otf": 9,
+        ".pdf": 18,
+        ".php": 6158,
+        ".png": 1909,
+        ".po": 167,
+        ".pot": 26,
+        ".sass": 48,
+        ".scss": 32,
+        ".svg": 111,
+        ".ttf": 56,
+        ".txt": 186,
+        ".woff": 62,
+        ".xml": 14,
+        ".zip": 8
+      },
+      "by_material_class": {
+        "document": 204,
+        "media": 3401,
+        "noise": 1663,
+        "other": 908,
+        "web": 8907
+      },
+      "by_modified_year": {
+        "2018": 15079,
+        "2021": 4
+      },
+      "by_storage_class": {
+        "STANDARD": 15083
+      },
+      "bytes_by_content_type": {
+        "html": 65518751,
+        "image": 420095800,
+        "other": 504895368,
+        "pdf": 22214145,
+        "text": 1550656
+      },
+      "bytes_by_material_class": {
+        "document": 23700038,
+        "media": 419934070,
+        "noise": 0,
+        "other": 422962289,
+        "web": 147678323
+      },
+      "duplication": {
+        "etag_identical_groups": 5043,
+        "etag_redundant_objects": 7834,
+        "largest_etag_groups": [
+          {
+            "count": 1702,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/56cbede92c266aea",
+              "redacted/b1228355a46df2a6",
+              "redacted/cf2cb7159f9e9c7d",
+              "redacted/d704455a0c63e216",
+              "redacted/7e742b9f1580ccd9.png"
+            ]
+          },
+          {
+            "count": 92,
+            "etag": "56d4439768678cd301f9a9f140f9440b",
+            "keys": [
+              "redacted/78d1ffafbbdc891f.php",
+              "redacted/1270f7b105fb0981.php",
+              "redacted/b6401c4da4a7dc03.php",
+              "redacted/3ec4294521d00d03.php",
+              "redacted/d4979edf0c47eb0b.php"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "2a91cd6a6364fb0814cc3e8ba61bfbb9",
+            "keys": [
+              "redacted/27e6e5121e5b5f45.php",
+              "redacted/2366e9bd500300ce.php",
+              "redacted/ea0e8317f921007b.php",
+              "redacted/6cb451573c026cf9.php",
+              "redacted/0f38c2544559c933.php"
+            ]
+          },
+          {
+            "count": 26,
+            "etag": "364cec32d3b2896bb5313a84f54280c8",
+            "keys": [
+              "redacted/a971845196b522a2.php",
+              "redacted/2e9e462ac10a52dc.php",
+              "redacted/f02ad3d2fc7e0bff.php",
+              "redacted/d168a978d52270eb.php",
+              "redacted/e81d77f4787c9b67.php"
+            ]
+          },
+          {
+            "count": 13,
+            "etag": "c83301425b2ad1d496473a5ff3d9ecca",
+            "keys": [
+              "redacted/83cd9bda9e46ebc1.htm",
+              "redacted/5e0264210b08b379.html",
+              "redacted/26e9227e7aefac78.htm",
+              "redacted/ade71a62bc807f58.html",
+              "redacted/001cffa23fa0c926.htm"
+            ]
+          },
+          {
+            "count": 10,
+            "etag": "45d09bb48b4f308b8f63baab8f416733",
+            "keys": [
+              "redacted/8cfee44d8a99fa95.php",
+              "redacted/01e6763aa0943533.php",
+              "redacted/8288bff977995056.php",
+              "redacted/59c49ae949f1f13e.php",
+              "redacted/5cf01433b41fbaa1.php"
+            ]
+          },
+          {
+            "count": 9,
+            "etag": "96137494913a1f730a592e8932af394e",
+            "keys": [
+              "redacted/cd53c23663ded3fe.php",
+              "redacted/11b23ad56f6ee06f.php",
+              "redacted/617a9f7c8d36f78a.php",
+              "redacted/e2b2da6f36c548a6.php",
+              "redacted/29efc920068b6aed.php"
+            ]
+          },
+          {
+            "count": 7,
+            "etag": "6097b46235b63aca5f5019ca5086a091",
+            "keys": [
+              "redacted/9a34c44974ba0b37.php",
+              "redacted/8b650dda26f71cfe.php",
+              "redacted/a25336037dab81ca.php",
+              "redacted/49a6f103c55c762d.php",
+              "redacted/d53713ddc4f8746e.php"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "a321db95236e0b86ca166afca5145e5d",
+            "keys": [
+              "redacted/9e0374e437f6d0ce.txt",
+              "redacted/389efd3576c557ab.txt",
+              "redacted/db290bba4965b1dd.txt",
+              "redacted/df2695044bc8775f.txt",
+              "redacted/c503955e8c1cc235.txt"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "4caadba7cc05825124f7bb262a6ab91c",
+            "keys": [
+              "redacted/a702dac0a4273690.txt",
+              "redacted/a2eb6db9b27c970e.txt",
+              "redacted/af73f9bf44a95e06.txt",
+              "redacted/69a2ed07d94edeb3.txt",
+              "redacted/71600664be6e9f20.txt"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 5054
+      },
+      "listing_complete": true,
+      "object_count": 15083,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 163587077,
+        "mean": 67246,
+        "min": 0,
+        "p50": 3205,
+        "p90": 59061,
+        "p99": 968938
+      },
+      "text_extractable_count": 6534,
+      "text_extractable_share": 0.4332,
+      "total_bytes": 1014274720,
+      "total_bytes_human": "967.3 MB",
+      "zero_byte_count": 1702,
+      "zero_byte_sample": [
+        "redacted/56cbede92c266aea",
+        "redacted/b1228355a46df2a6",
+        "redacted/cf2cb7159f9e9c7d",
+        "redacted/d704455a0c63e216",
+        "redacted/7e742b9f1580ccd9.png",
+        "redacted/5ccb98c98f3834ae.png",
+        "redacted/ee8d9370222e3a05",
+        "redacted/f0a9a6a9595c1324",
+        "redacted/fd84ee1783c3f9f6",
+        "redacted/769ad04754661091",
+        "redacted/95fa0276f3f5ac4a",
+        "redacted/48d9115d0c3b4f06",
+        "redacted/260f08932ada139e",
+        "redacted/2082f8d64d22e4b9",
+        "redacted/d79b4b56c7f8eb7c",
+        "redacted/b2e22fb22d6f49cb",
+        "redacted/8adafa2f31f27f13",
+        "redacted/200640cc83b143cf",
+        "redacted/ceb33b7ed3b616b4",
+        "redacted/d54fb9ab253f33ed"
+      ]
+    },
+    {
+      "bucket": "www.woodlands-council.example",
+      "by_content_type": {
+        "html": 66,
+        "image": 178,
+        "office": 609,
+        "other": 508,
+        "pdf": 575,
+        "text": 7
+      },
+      "by_extension": {
+        "(none)": 288,
+        ".bck": 1,
+        ".cfm": 29,
+        ".css": 37,
+        ".csv": 4,
+        ".db": 1,
+        ".doc": 81,
+        ".docx": 493,
+        ".gif": 48,
+        ".gz": 2,
+        ".htm": 34,
+        ".html": 3,
+        ".jpeg": 6,
+        ".jpg": 113,
+        ".js": 126,
+        ".json": 2,
+        ".pdf": 575,
+        ".plist": 22,
+        ".png": 10,
+        ".pptx": 1,
+        ".rtf": 3,
+        ".txt": 4,
+        ".xls": 10,
+        ".xlsx": 24,
+        ".xml": 24
+      },
+      "by_material_class": {
+        "document": 1156,
+        "media": 179,
+        "noise": 278,
+        "other": 77,
+        "web": 253
+      },
+      "by_modified_year": {
+        "2018": 542,
+        "2022": 1,
+        "2023": 1391,
+        "2026": 9
+      },
+      "by_storage_class": {
+        "STANDARD": 1943
+      },
+      "bytes_by_content_type": {
+        "html": 423712,
+        "image": 24000209,
+        "office": 305711197,
+        "other": 9883506,
+        "pdf": 523949897,
+        "text": 84093
+      },
+      "bytes_by_material_class": {
+        "document": 822194514,
+        "media": 29082849,
+        "noise": 5632,
+        "other": 3308858,
+        "web": 9460761
+      },
+      "duplication": {
+        "etag_identical_groups": 479,
+        "etag_redundant_objects": 845,
+        "largest_etag_groups": [
+          {
+            "count": 277,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/f55f61c013c9b605",
+              "redacted/35d6409ce027e180",
+              "redacted/9a3283fe78a85d78",
+              "redacted/0ace5d9d327071f3",
+              "redacted/e044f72224b065ff"
+            ]
+          },
+          {
+            "count": 10,
+            "etag": "b41c20277d00f2d89730d23b7f7a9865",
+            "keys": [
+              "redacted/e20f1fadfdd6acc1.plist",
+              "redacted/ffaf2535613360c0.plist",
+              "redacted/2e9dc3c6f3949c34.plist",
+              "redacted/d9bbbe1dfc4903fa.plist",
+              "redacted/99f37be4230a80a1.plist"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "dc0b03e7c572592e0279cee0badee406",
+            "keys": [
+              "redacted/12e59450abd87589.pdf",
+              "redacted/f894519a6112abca.pdf",
+              "redacted/504c8ed921869910.pdf",
+              "redacted/74fb58b3592c26c4.pdf",
+              "redacted/912dbc758e883945.pdf"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "9018014a1c6d165fe38b4c009ce6692c",
+            "keys": [
+              "redacted/e69bc4266a594170.jpg",
+              "redacted/aecba9aabb58f010.jpg",
+              "redacted/67ae8636ff7dd0ea.jpg",
+              "redacted/c933bb12ddbff341.jpg",
+              "redacted/4b137ccede54517f.jpg"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "08ea1d2c337154435f2e09412e37e24c",
+            "keys": [
+              "redacted/a3ae819a38135436.plist",
+              "redacted/d73c7e0d19a15997.plist",
+              "redacted/cc67768780599a1d.plist",
+              "redacted/34c00056e8499a94.plist",
+              "redacted/aec9dd2bbd04c82f.plist"
+            ]
+          },
+          {
+            "count": 6,
+            "etag": "e3bc864c0283462f1c16f826dced083e",
+            "keys": [
+              "redacted/618b8d850e127b79.xml",
+              "redacted/4583ca880286af66.xml",
+              "redacted/7bd0a92bc66c7472.xml",
+              "redacted/9a349e8001cd72bd.xml",
+              "redacted/30b442565e44d0b1.xml"
+            ]
+          },
+          {
+            "count": 5,
+            "etag": "77a9a2df86c9b8f84757cfe2907284e3",
+            "keys": [
+              "redacted/9028f9961489187c.pdf",
+              "redacted/d3ca177ec085c4fa.pdf",
+              "redacted/e4d5b39e7aa31337.pdf",
+              "redacted/15ae2a1ac2a0a7cd.pdf",
+              "redacted/24363cdbcac919ff.pdf"
+            ]
+          },
+          {
+            "count": 5,
+            "etag": "bee1de186e88d07cf41e6f3fb1a180cd",
+            "keys": [
+              "redacted/54e9f87879720849.pdf",
+              "redacted/70dd79507150584d.pdf",
+              "redacted/5dbacc5f25bcd34f.pdf",
+              "redacted/dc2bd4416404e44b.pdf",
+              "redacted/dc6ae6290a614cf0.pdf"
+            ]
+          },
+          {
+            "count": 5,
+            "etag": "8fe1efea2e919ee0f89b9d64037f119c",
+            "keys": [
+              "redacted/a1b037af281eb7e8.pdf",
+              "redacted/38b59856c2647108.pdf",
+              "redacted/5fec81922a9fa593.pdf",
+              "redacted/618000539be3ccf2.pdf",
+              "redacted/dcc39428f77ecb08.pdf"
+            ]
+          },
+          {
+            "count": 4,
+            "etag": "8da87f2aa4d3b595ff1d81eaccfddac9",
+            "keys": [
+              "redacted/ccd014c7f114d654.pdf",
+              "redacted/2738b03089e90491.pdf",
+              "redacted/9df9d9218a3dec06.pdf",
+              "redacted/7aa431b6f7bbb1bf.pdf"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 478
+      },
+      "listing_complete": true,
+      "object_count": 1943,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 30194524,
+        "mean": 444700,
+        "min": 0,
+        "p50": 31345,
+        "p90": 898170,
+        "p99": 7906943
+      },
+      "text_extractable_count": 1257,
+      "text_extractable_share": 0.6469,
+      "total_bytes": 864052614,
+      "total_bytes_human": "824.0 MB",
+      "zero_byte_count": 277,
+      "zero_byte_sample": [
+        "redacted/f55f61c013c9b605",
+        "redacted/35d6409ce027e180",
+        "redacted/9a3283fe78a85d78",
+        "redacted/0ace5d9d327071f3",
+        "redacted/e044f72224b065ff",
+        "redacted/a087abf7f1c3eb1d",
+        "redacted/6d970e2dc7f835d9",
+        "redacted/9fb2bf00c813c3f9",
+        "redacted/bd2be80afc89b48f",
+        "redacted/067f86781d53c2f1",
+        "redacted/4404499c46d7cbe7",
+        "redacted/445e96186ec6804a",
+        "redacted/38cb70c2b0664084",
+        "redacted/92dece5e5f100930",
+        "redacted/31f0176e07927385",
+        "redacted/922779ad7e46a59e",
+        "redacted/c8d9e4bb0a664b3e",
+        "redacted/015884ae75ea1bab",
+        "redacted/271d0adf4b0a15c2",
+        "redacted/cb0ae9fe2fbb1ed3"
+      ]
+    },
+    {
+      "bucket": "www.canopycoalition.example",
+      "by_content_type": {
+        "audio": 1,
+        "html": 242,
+        "image": 510,
+        "office": 194,
+        "other": 1770,
+        "pdf": 4942,
+        "text": 127
+      },
+      "by_extension": {
+        "(none)": 812,
+        ".bin": 15,
+        ".cfm": 158,
+        ".css": 34,
+        ".dat": 44,
+        ".doc": 73,
+        ".docx": 14,
+        ".gif": 223,
+        ".htm": 46,
+        ".html": 36,
+        ".iwa": 37,
+        ".jpeg": 11,
+        ".jpg": 218,
+        ".js": 136,
+        ".old": 8,
+        ".pdf": 4942,
+        ".plist": 8,
+        ".qbo": 19,
+        ".rels": 79,
+        ".rtf": 25,
+        ".tif": 43,
+        ".tiff": 9,
+        ".txt": 102,
+        ".xls": 101,
+        ".xml": 477
+      },
+      "by_material_class": {
+        "document": 5094,
+        "media": 511,
+        "noise": 1026,
+        "other": 475,
+        "web": 680
+      },
+      "by_modified_year": {
+        "2013": 1382,
+        "2014": 48,
+        "2015": 24,
+        "2016": 32,
+        "2017": 57,
+        "2019": 5,
+        "2020": 5,
+        "2023": 6232,
+        "2026": 1
+      },
+      "by_storage_class": {
+        "STANDARD": 7786
+      },
+      "bytes_by_content_type": {
+        "audio": 223095296,
+        "html": 1779755,
+        "image": 897324736,
+        "office": 45079279,
+        "other": 153582325,
+        "pdf": 6074820695,
+        "text": 619300
+      },
+      "bytes_by_material_class": {
+        "document": 6083325131,
+        "media": 1122206477,
+        "noise": 1955840,
+        "other": 179027227,
+        "web": 9786711
+      },
+      "duplication": {
+        "etag_identical_groups": 1300,
+        "etag_redundant_objects": 2529,
+        "largest_etag_groups": [
+          {
+            "count": 715,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/d73aea50ad771d23",
+              "redacted/f9cc6597bf0ca1dd",
+              "redacted/563e32265b8a0feb",
+              "redacted/3a34902273aeefde",
+              "redacted/207b67cd3bb0e421"
+            ]
+          },
+          {
+            "count": 328,
+            "etag": "a3944ee8c4f5b536981daf39a4b1d424",
+            "keys": [
+              "redacted/4199aa400e02121e.doc",
+              "redacted/3c707836272eeb09.doc",
+              "redacted/fdc83081c7e92253.doc",
+              "redacted/00ff78aa8edaebfd",
+              "redacted/ab8c32c8070202fb.xls"
+            ]
+          },
+          {
+            "count": 21,
+            "etag": "bd3d2e2fe0c37c3458bbd6e1550878d6",
+            "keys": [
+              "redacted/1f9af8a7f5714b3f.txt",
+              "redacted/a3e32d905434d852.txt",
+              "redacted/740a91b240a7b7c8.txt",
+              "redacted/d0af89380b40a4d7.txt",
+              "redacted/61ee051cdd9ecc2f.txt"
+            ]
+          },
+          {
+            "count": 13,
+            "etag": "77bf61733a633ea617a4db76ef769a4d",
+            "keys": [
+              "redacted/11cb45e0d5b7884b",
+              "redacted/029e5d420f312665",
+              "redacted/412a3798b579dc0e",
+              "redacted/8e081362eb18d739",
+              "redacted/3a271fe895cf891e"
+            ]
+          },
+          {
+            "count": 12,
+            "etag": "2a1f1b52ce97bcd1db289dfd182bab12",
+            "keys": [
+              "redacted/d0cf58394075cc2c.dat",
+              "redacted/1bea96a9fc5daaea.dat",
+              "redacted/c047493b964b9796.&da",
+              "redacted/8bb4cd32d141787a.new",
+              "redacted/fff371fa927c0a86.&da"
+            ]
+          },
+          {
+            "count": 11,
+            "etag": "20e1680d6d9ec94fd162d075012f077d",
+            "keys": [
+              "redacted/75066ab4537b9fcd.xml",
+              "redacted/70624f9f0a21ece0.xml",
+              "redacted/50745aa6958239f3.xml",
+              "redacted/880cc1d1352a6174.xml",
+              "redacted/c9c9bbbc3e26dbc5.xml"
+            ]
+          },
+          {
+            "count": 8,
+            "etag": "fea7ead5fcd0a35c11853c066e19b1c2",
+            "keys": [
+              "redacted/c222a6dc1fd4c07a.dat",
+              "redacted/dc8bce438321a7cb.dat",
+              "redacted/468afef7fdeb628a.dat",
+              "redacted/f69634ab9a559233.dat",
+              "redacted/2fde5f0cd293e118.dat"
+            ]
+          },
+          {
+            "count": 8,
+            "etag": "2a96c15b97289f91865f1e95ab4b4413",
+            "keys": [
+              "redacted/8f41d971ffecfee6.dat",
+              "redacted/d0db6534e63bc48d.dat",
+              "redacted/006a36e8c7cdd929.dat",
+              "redacted/46f63c7c5ee01ace.dat",
+              "redacted/33fe893d7e41920d.dat"
+            ]
+          },
+          {
+            "count": 8,
+            "etag": "66c22ba473a36a190b4697985430018b",
+            "keys": [
+              "redacted/27284ee53cdfba44.dat",
+              "redacted/3117db512eecef7a.dat",
+              "redacted/b2034d95f93f8517.dat",
+              "redacted/858429decd03d5c8.dat",
+              "redacted/51625743c21b0452.dat"
+            ]
+          },
+          {
+            "count": 8,
+            "etag": "f1ad7ea95146e70bf1947960f6ceb0ec",
+            "keys": [
+              "redacted/2a2f0fcfea0d20e2.dat",
+              "redacted/9f5aa967ccc95f8e.dat",
+              "redacted/6df68241fb83dad2.dat",
+              "redacted/7e4ce59f3faed85b.dat",
+              "redacted/9d02eb3fcc997ce6.dat"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 1272
+      },
+      "listing_complete": true,
+      "object_count": 7786,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 223095296,
+        "mean": 949948,
+        "min": 0,
+        "p50": 73106,
+        "p90": 1428597,
+        "p99": 16795498
+      },
+      "text_extractable_count": 5505,
+      "text_extractable_share": 0.707,
+      "total_bytes": 7396301386,
+      "total_bytes_human": "6.9 GB",
+      "zero_byte_count": 715,
+      "zero_byte_sample": [
+        "redacted/d73aea50ad771d23",
+        "redacted/f9cc6597bf0ca1dd",
+        "redacted/563e32265b8a0feb",
+        "redacted/3a34902273aeefde",
+        "redacted/207b67cd3bb0e421",
+        "redacted/2edcbef6e99fff4d",
+        "redacted/d54d23bf638d77da",
+        "redacted/641adea13f629dff",
+        "redacted/ec22f6e6f5ec7b8d",
+        "redacted/0a107a8d7ab9168e",
+        "redacted/98c81bc1c8944623",
+        "redacted/2135e0437aa5c3b8",
+        "redacted/e34537abbb351df6",
+        "redacted/5fe96459f3786fc7",
+        "redacted/33150e649a6e4aef",
+        "redacted/54d6e1e4c20c658d",
+        "redacted/0e5ac93759478d9f",
+        "redacted/63252618f0dfb81d",
+        "redacted/6fb7dad295b0ee7a",
+        "redacted/fd74dd059840c6c2"
+      ]
+    },
+    {
+      "bucket": "www.forest-stewards.example",
+      "by_content_type": {
+        "html": 228,
+        "image": 2419,
+        "office": 666,
+        "other": 4330,
+        "pdf": 870,
+        "text": 479,
+        "video": 4
+      },
+      "by_extension": {
+        "(none)": 1426,
+        ".1": 55,
+        ".2": 62,
+        ".bmp": 73,
+        ".css": 102,
+        ".dat": 99,
+        ".doc": 632,
+        ".dot": 140,
+        ".dtf": 93,
+        ".exe": 83,
+        ".fin": 63,
+        ".gif": 362,
+        ".htm": 124,
+        ".html": 64,
+        ".idx": 93,
+        ".jpg": 847,
+        ".js": 414,
+        ".log": 201,
+        ".pcx": 257,
+        ".pdf": 870,
+        ".pm": 60,
+        ".png": 1021,
+        ".rtf": 97,
+        ".tif": 102,
+        ".txt": 382
+      },
+      "by_material_class": {
+        "document": 1982,
+        "media": 2354,
+        "noise": 986,
+        "other": 2928,
+        "web": 746
+      },
+      "by_modified_year": {
+        "2013": 41,
+        "2014": 2,
+        "2017": 1818,
+        "2018": 20,
+        "2020": 12,
+        "2021": 9,
+        "2023": 3499,
+        "2024": 3560,
+        "2025": 35
+      },
+      "by_storage_class": {
+        "STANDARD": 8996
+      },
+      "bytes_by_content_type": {
+        "html": 2079805,
+        "image": 5076195018,
+        "office": 71396021,
+        "other": 757988685,
+        "pdf": 3992893710,
+        "text": 12014948,
+        "video": 24804120
+      },
+      "bytes_by_material_class": {
+        "document": 4074007037,
+        "media": 4359048801,
+        "noise": 856064,
+        "other": 1497428334,
+        "web": 6032071
+      },
+      "duplication": {
+        "etag_identical_groups": 2587,
+        "etag_redundant_objects": 4206,
+        "largest_etag_groups": [
+          {
+            "count": 1082,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/e1760f6718194f1c",
+              "redacted/2b64ddf50704f95e",
+              "redacted/581b8c485f98f122",
+              "redacted/8f14b2abd0623b94",
+              "redacted/396d3c9a3c4345a7.rtfd"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "5e9968953526f3e62243a9f37e9f093f",
+            "keys": [
+              "redacted/e6b58de4a51f1e63",
+              "redacted/525b8da8fb90042b.txt",
+              "redacted/7324d928e359dff7.txt",
+              "redacted/9ebf02996a52575b.txt",
+              "redacted/bf766bfcf2089517.txt"
+            ]
+          },
+          {
+            "count": 16,
+            "etag": "bd3d2e2fe0c37c3458bbd6e1550878d6",
+            "keys": [
+              "redacted/8e0fdab8f5adf1c0.txt",
+              "redacted/94eee3e3a93c294d.txt",
+              "redacted/9c12dfd189127672.txt",
+              "redacted/eda54183bf76464a.txt",
+              "redacted/b2a06b60a0c650f5.txt"
+            ]
+          },
+          {
+            "count": 16,
+            "etag": "227da2fc2a6bfef0f8b45476060bc9cf",
+            "keys": [
+              "redacted/ae60017be0e95693.png",
+              "redacted/b0e32730579ba2f7.png",
+              "redacted/6cadc91e12e3f26e.png",
+              "redacted/2c1797ecdf71d89c.png",
+              "redacted/f58ec4e807cd865b.png"
+            ]
+          },
+          {
+            "count": 15,
+            "etag": "ff583527064d066feb20306cb928407f",
+            "keys": [
+              "redacted/cb2e09bfe36b925e.doc",
+              "redacted/7c5eabd5985c0f82.txt",
+              "redacted/63f81c07c9926933.doc",
+              "redacted/3170073fc9da353f.doc",
+              "redacted/ae49b7f94e00c9f3.dot"
+            ]
+          },
+          {
+            "count": 13,
+            "etag": "feb9a31027aad8f4a6dba67d47e26de2",
+            "keys": [
+              "redacted/3bfd82d1ce76d076.exe",
+              "redacted/30d8caab9a518169.exe",
+              "redacted/b8565940eee68983.exe",
+              "redacted/7f2b3af4ae4d1901.exe",
+              "redacted/11cbc410d7125364.exe"
+            ]
+          },
+          {
+            "count": 11,
+            "etag": "8f21a5cd15463b7ad8ae8c69ab2c81ee",
+            "keys": [
+              "redacted/2184449d61706ab4.jpg",
+              "redacted/5833833d63696395.jpg",
+              "redacted/74da3e56859b3400.jpg",
+              "redacted/5d5443043adc4ab7.jpg",
+              "redacted/28c8bba69904f451.jpg"
+            ]
+          },
+          {
+            "count": 10,
+            "etag": "ff7b31d93b11e7a67bbeb12a38589444",
+            "keys": [
+              "redacted/9c16aa681a6fbd93.png",
+              "redacted/b992650dd1392d99.png",
+              "redacted/789c78a4674d17c6.png",
+              "redacted/009d5970e68be1cc.png",
+              "redacted/3aeb56e72bafa812.png"
+            ]
+          },
+          {
+            "count": 10,
+            "etag": "cf15ba8cbe8bf395027dd319022e8f18",
+            "keys": [
+              "redacted/9d76e2917dfa58f4.png",
+              "redacted/7f8dc0c90f2c7fa7.png",
+              "redacted/3103224052402dba.png",
+              "redacted/d887ae01492d279f.png",
+              "redacted/3bb44ef4a86c0389.png"
+            ]
+          },
+          {
+            "count": 8,
+            "etag": "12bf9e19374920de3146a64775f46a5e",
+            "keys": [
+              "redacted/c6fa732f97201c3a.gif",
+              "redacted/e8e5a37398d98878.gif",
+              "redacted/43ed6256ca50d915.gif",
+              "redacted/cc216aee79e92825.gif",
+              "redacted/1d8d7bd6b6f54e7e.gif"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 2615
+      },
+      "listing_complete": true,
+      "object_count": 8996,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 200892416,
+        "mean": 1104643,
+        "min": 0,
+        "p50": 6389,
+        "p90": 1366119,
+        "p99": 22402118
+      },
+      "text_extractable_count": 2243,
+      "text_extractable_share": 0.2493,
+      "total_bytes": 9937372307,
+      "total_bytes_human": "9.3 GB",
+      "zero_byte_count": 1082,
+      "zero_byte_sample": [
+        "redacted/e1760f6718194f1c",
+        "redacted/2b64ddf50704f95e",
+        "redacted/581b8c485f98f122",
+        "redacted/8f14b2abd0623b94",
+        "redacted/396d3c9a3c4345a7.rtfd",
+        "redacted/b21818fdbba9dfa6",
+        "redacted/7db5cadafd7918a0",
+        "redacted/0362eadfbbca8492",
+        "redacted/83ee5ac99ada43be",
+        "redacted/24c80ba7a81f2563",
+        "redacted/3d34b13730d726b8",
+        "redacted/1ec61a161dadc3d6",
+        "redacted/027334900a3c6e67",
+        "redacted/3ebe261500af9c47",
+        "redacted/b21e7aae156ab1ab",
+        "redacted/07c816c3eed78862",
+        "redacted/5498574e1a639e05",
+        "redacted/b03ffaebb6add037",
+        "redacted/ae7e50228b28aacb",
+        "redacted/a790f58bf607d760"
+      ]
+    },
+    {
+      "bucket": "www.forest-library.example",
+      "by_content_type": {
+        "audio": 701,
+        "html": 326,
+        "image": 55475,
+        "office": 4952,
+        "other": 53290,
+        "pdf": 49496,
+        "text": 394,
+        "video": 377
+      },
+      "by_extension": {
+        "(none)": 15599,
+        ".bmp": 401,
+        ".cxml": 940,
+        ".doc": 563,
+        ".docx": 3118,
+        ".eml": 29420,
+        ".gif": 2043,
+        ".hdl": 274,
+        ".html": 192,
+        ".jpeg": 679,
+        ".jpg": 48771,
+        ".mov": 209,
+        ".mp3": 645,
+        ".pages": 2327,
+        ".pdf": 49496,
+        ".plist": 968,
+        ".png": 1687,
+        ".pptx": 179,
+        ".rtf": 237,
+        ".tcc": 269,
+        ".tif": 1642,
+        ".tiff": 252,
+        ".xls": 574,
+        ".xlsx": 452,
+        ".zip": 755
+      },
+      "by_material_class": {
+        "document": 84599,
+        "media": 49787,
+        "noise": 25365,
+        "other": 4750,
+        "web": 510
+      },
+      "by_modified_year": {
+        "2012": 5039,
+        "2013": 743,
+        "2014": 367,
+        "2015": 3170,
+        "2016": 594,
+        "2017": 12098,
+        "2018": 9095,
+        "2019": 7332,
+        "2020": 12976,
+        "2021": 7413,
+        "2022": 34402,
+        "2023": 24353,
+        "2024": 8359,
+        "2025": 33568,
+        "2026": 5502
+      },
+      "by_storage_class": {
+        "STANDARD": 165011
+      },
+      "bytes_by_content_type": {
+        "audio": 66067421224,
+        "html": 10911684,
+        "image": 175991788221,
+        "office": 6491296355,
+        "other": 290676223255,
+        "pdf": 203298145752,
+        "text": 292290168,
+        "video": 75505890420
+      },
+      "bytes_by_material_class": {
+        "document": 214180447626,
+        "media": 326748681542,
+        "noise": 641158260,
+        "other": 276750405848,
+        "web": 13273803
+      },
+      "duplication": {
+        "etag_identical_groups": 24431,
+        "etag_redundant_objects": 48736,
+        "largest_etag_groups": [
+          {
+            "count": 14345,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/dfc7a1b5cfa63efc",
+              "redacted/9ad2c21622fc2ab6",
+              "redacted/0e671aa7d1cb241d",
+              "redacted/9565ecb2b5b8b7d0",
+              "redacted/709626efb0e88d11"
+            ]
+          },
+          {
+            "count": 114,
+            "etag": "5075dc36e6fb5b2f19a38ac28d8a7fca",
+            "keys": [
+              "redacted/f08fd738ac18f300",
+              "redacted/fa85751e4ad87bcb",
+              "redacted/1c89034e98c33d88",
+              "redacted/ecae1c61c73cdcd2",
+              "redacted/e953b530d5eb9138"
+            ]
+          },
+          {
+            "count": 88,
+            "etag": "75ba0de08067f948e87c44a4960cb4e4",
+            "keys": [
+              "redacted/a6b7c05c66e7f203.png",
+              "redacted/7e11819bcab8e113.png",
+              "redacted/8539937b1539a722.png",
+              "redacted/1fc208aea7b6386e.png",
+              "redacted/2f9809b23eb206d0.png"
+            ]
+          },
+          {
+            "count": 57,
+            "etag": "7ec87f8f80c6b64bdabc53c2a16ba26d",
+            "keys": [
+              "redacted/cc0fb564df0b1c02.png",
+              "redacted/937dc39981ebff3c.png",
+              "redacted/b4213f45302333ea.png",
+              "redacted/3f9a6cd4c0b4b02f.png",
+              "redacted/25b496a158d897f1.png"
+            ]
+          },
+          {
+            "count": 55,
+            "etag": "6214243b240fe5de6fe150fac2d0568f",
+            "keys": [
+              "redacted/d14ee4e07f631cac.plist",
+              "redacted/2ef274f95e202b0e.plist",
+              "redacted/1517b95d64fac8e0.plist",
+              "redacted/39cf181ff786cdbe.plist",
+              "redacted/86c6078518df6ff3.plist"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "c7c555fc0cf554ad09afd83a62869082",
+            "keys": [
+              "redacted/ff806fec710c91dd.jpg",
+              "redacted/db2e9e9a00ca3bd7.jpg",
+              "redacted/06962e32e044aac1.jpg",
+              "redacted/cbd6f92bd4703e92.jpg",
+              "redacted/b3dc74b62c9de18e.jpg"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "a67c735e54115bf2b0e7e6ea2365145d",
+            "keys": [
+              "redacted/70ca9d15bc71e47d.jpg",
+              "redacted/d96b3c3cf9e636c1.jpg",
+              "redacted/c66916bbbfb6c8bc.jpg",
+              "redacted/cbde7838d752f535.jpg",
+              "redacted/2b7bbe8e09419479.jpg"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "9e730ba9bfdaa644c6f7387fa6462ebf",
+            "keys": [
+              "redacted/9f083ee4c009dee0.jpg",
+              "redacted/0e501f234cd7ab63.jpg",
+              "redacted/49bcb9799bb6a681.jpg",
+              "redacted/510e34b902cf9f90.jpg",
+              "redacted/c099f819e2ee0082.jpg"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "dd4fa2511f85d6c0497ca23456c0c1d0",
+            "keys": [
+              "redacted/ed578b7bf8d0cd21.jpg",
+              "redacted/c4178ed2cee9ad2f.jpg",
+              "redacted/ba82c7660dba7fd3.jpg",
+              "redacted/40df086f740d4552.jpg",
+              "redacted/1378d1ecf5513aba.jpg"
+            ]
+          },
+          {
+            "count": 40,
+            "etag": "a6652e0c6a1a6174f6fdc3801b68fa3f",
+            "keys": [
+              "redacted/c50a40435dc4b6c6.jpg",
+              "redacted/a70511da7eb813bd.jpg",
+              "redacted/8ef5c9f7fd38ddde.jpg",
+              "redacted/e24dff962c949e75.jpg",
+              "redacted/eb8299b6e49f1f12.jpg"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 22724
+      },
+      "listing_complete": true,
+      "object_count": 165011,
+      "region": "us-east-1",
+      "size_distribution": {
+        "max": 18924870255,
+        "mean": 4959269,
+        "min": 0,
+        "p50": 125704,
+        "p90": 5969669,
+        "p99": 52428800
+      },
+      "text_extractable_count": 55168,
+      "text_extractable_share": 0.3343,
+      "total_bytes": 818333967079,
+      "total_bytes_human": "762.1 GB",
+      "zero_byte_count": 14345,
+      "zero_byte_sample": [
+        "redacted/dfc7a1b5cfa63efc",
+        "redacted/9ad2c21622fc2ab6",
+        "redacted/0e671aa7d1cb241d",
+        "redacted/9565ecb2b5b8b7d0",
+        "redacted/709626efb0e88d11",
+        "redacted/1b067f6f86e5f384",
+        "redacted/3c94efe560ee0f3e",
+        "redacted/4c988d984f73cc26",
+        "redacted/19be4657f06d6865",
+        "redacted/01e224e15d4ee18e",
+        "redacted/4cce7ffb564b1db6",
+        "redacted/97ed482aff56eb74",
+        "redacted/474ccb054525bf5c",
+        "redacted/2b24aad8dc63398e",
+        "redacted/5f0488ef8883013b",
+        "redacted/7a3684ff7c769704",
+        "redacted/5068bcc94582e991",
+        "redacted/c933e503291ad2f5",
+        "redacted/39d0e8236d27c113",
+        "redacted/d281dc224bfe49ae"
+      ]
+    },
+    {
+      "bucket": "www.clearcut-watch.example",
+      "by_content_type": {
+        "audio": 5,
+        "html": 22,
+        "image": 23,
+        "office": 1,
+        "other": 24,
+        "pdf": 111
+      },
+      "by_extension": {
+        "(none)": 21,
+        ".doc": 1,
+        ".dvf": 1,
+        ".htm": 22,
+        ".jpg": 23,
+        ".mp3": 4,
+        ".nm": 1,
+        ".pdf": 111,
+        ".psd": 1,
+        ".wav": 1
+      },
+      "by_material_class": {
+        "document": 112,
+        "media": 30,
+        "noise": 22,
+        "web": 22
+      },
+      "by_modified_year": {
+        "2017": 186
+      },
+      "by_storage_class": {
+        "STANDARD": 186
+      },
+      "bytes_by_content_type": {
+        "audio": 251157141,
+        "html": 246338,
+        "image": 806538,
+        "office": 51200,
+        "other": 690852,
+        "pdf": 448199663
+      },
+      "bytes_by_material_class": {
+        "document": 448250863,
+        "media": 252654531,
+        "noise": 0,
+        "web": 246338
+      },
+      "duplication": {
+        "etag_identical_groups": 7,
+        "etag_redundant_objects": 29,
+        "largest_etag_groups": [
+          {
+            "count": 23,
+            "etag": "d41d8cd98f00b204e9800998ecf8427e",
+            "keys": [
+              "redacted/ee73a099de49224f",
+              "redacted/5a8271f33e92eb72",
+              "redacted/4e454a28fe08abc1",
+              "redacted/04bfa1d24284d0d7",
+              "redacted/2411ef2d65e397bc"
+            ]
+          },
+          {
+            "count": 3,
+            "etag": "0893bfb689cb97090a469c8342219340",
+            "keys": [
+              "redacted/af2309df0262f74c.jpg",
+              "redacted/f1009bb28c3d58b6.jpg",
+              "redacted/5b36bb65f7837712.jpg"
+            ]
+          },
+          {
+            "count": 2,
+            "etag": "80fc3cbeca64d1fe662a0e389d47ad4d",
+            "keys": [
+              "redacted/1e123d8f2532c3bb.jpg",
+              "redacted/db125711307ec7eb.jpg"
+            ]
+          },
+          {
+            "count": 2,
+            "etag": "bcc07b2fd524a6a322bd9d7ac95ea685",
+            "keys": [
+              "redacted/7a1c769f76b27e13.jpg",
+              "redacted/539123742a57d88c.jpg"
+            ]
+          },
+          {
+            "count": 2,
+            "etag": "4ea313f0e8ae061f95a7d1654cd2109f",
+            "keys": [
+              "redacted/1ce6488cd0d72a15.jpg",
+              "redacted/1fdd638f7ec8992c.jpg"
+            ]
+          },
+          {
+            "count": 2,
+            "etag": "768e6468dbbdc2d163a72d46c55e6a7d",
+            "keys": [
+              "redacted/4a7b3896cc3befa3.jpg",
+              "redacted/fe678b330a281ce2.jpg"
+            ]
+          },
+          {
+            "count": 2,
+            "etag": "cdd12e16b92ce9dbdda8f2d4d576cfe2",
+            "keys": [
+              "redacted/55b2e27fdd34eaee.pdf",
+              "redacted/a7b3e10fb5a5ffa6.pdf"
+            ]
+          }
+        ],
+        "name_size_collision_groups": 6
+      },
+      "listing_complete": true,
+      "object_count": 186,
+      "region": "us-east-2",
+      "size_distribution": {
+        "max": 104857600,
+        "mean": 3769632,
+        "min": 0,
+        "p50": 86323,
+        "p90": 5687564,
+        "p99": 52428800
+      },
+      "text_extractable_count": 134,
+      "text_extractable_share": 0.7204,
+      "total_bytes": 701151732,
+      "total_bytes_human": "668.7 MB",
+      "zero_byte_count": 23,
+      "zero_byte_sample": [
+        "redacted/ee73a099de49224f",
+        "redacted/5a8271f33e92eb72",
+        "redacted/4e454a28fe08abc1",
+        "redacted/04bfa1d24284d0d7",
+        "redacted/2411ef2d65e397bc",
+        "redacted/24ed349615006a44",
+        "redacted/f38b532233ec7dfc",
+        "redacted/a5facde29afab58d",
+        "redacted/4f6c53d04375e166.pdf",
+        "redacted/98bbdb4251e0e9b7",
+        "redacted/27a16d78a1755f5b",
+        "redacted/942332977d36345f",
+        "redacted/6ab8d265d3b1ce3b",
+        "redacted/db0e14ff95f78d2f",
+        "redacted/f4ecf9c37ac73061",
+        "redacted/bb0f85b5aef39b73",
+        "redacted/69176b545dea461d.nm",
+        "redacted/7eb79145d6595fd3",
+        "redacted/8ed1389f449c54c9",
+        "redacted/c8f4d44691c812ad"
+      ]
+    }
+  ],
+  "corpus": {
+    "buckets_analyzed": [
+      "Publications",
+      "www.timberland-network.example",
+      "www.woodlands-council.example",
+      "www.canopycoalition.example",
+      "www.forest-stewards.example",
+      "www.forest-library.example",
+      "www.clearcut-watch.example"
+    ],
+    "by_extension": {
+      "(none)": 2147,
+      ".cfm": 277,
+      ".css": 852,
+      ".dat": 215,
+      ".doc": 1324,
+      ".docx": 3620,
+      ".dot": 145,
+      ".eml": 29379,
+      ".gif": 1564,
+      ".htm": 299,
+      ".html": 418,
+      ".indd": 161,
+      ".jpeg": 628,
+      ".jpg": 46285,
+      ".js": 2341,
+      ".json": 179,
+      ".less": 142,
+      ".log": 204,
+      ".mo": 269,
+      ".mov": 196,
+      ".mp3": 648,
+      ".mp4": 160,
+      ".pages": 1807,
+      ".pcx": 257,
+      ".pdf": 55832,
+      ".php": 6158,
+      ".png": 4261,
+      ".po": 167,
+      ".pptx": 180,
+      ".psd": 167,
+      ".rdf": 162,
+      ".rtf": 358,
+      ".tif": 1756,
+      ".tiff": 185,
+      ".txt": 827,
+      ".wpd": 134,
+      ".xls": 710,
+      ".xlsx": 481,
+      ".xml": 335,
+      ".zip": 341
+    },
+    "bytes_by_extension": {
+      "(none)": 969877458,
+      ".ai": 1438573727,
+      ".aiff": 1417331664,
+      ".avi": 435320164,
+      ".bmp": 793566160,
+      ".csv": 277785589,
+      ".dmg": 6850571347,
+      ".doc": 313409276,
+      ".docx": 2114066601,
+      ".eml": 7206043730,
+      ".exe": 770065274,
+      ".indd": 566198272,
+      ".iso": 1823537152,
+      ".jpeg": 549771839,
+      ".jpg": 159299975169,
+      ".key": 723010735,
+      ".las": 663737542,
+      ".m4a": 1104352021,
+      ".m4v": 1449639902,
+      ".mkv": 932947185,
+      ".mov": 10311066871,
+      ".mp3": 48574016460,
+      ".mp4": 64650036135,
+      ".mpg": 389011822,
+      ".pages": 1338586862,
+      ".pdf": 214371654297,
+      ".png": 425360400,
+      ".ppt": 2218374773,
+      ".pptx": 1424808789,
+      ".psd": 4414410649,
+      ".rtf": 201698992,
+      ".rw2": 574833152,
+      ".tif": 19050647247,
+      ".tiff": 1825919266,
+      ".vob": 13482233856,
+      ".wav": 17967653105,
+      ".wma": 215616824,
+      ".xls": 648253384,
+      ".xlsx": 208341293,
+      ".zip": 243935236148
+    },
+    "document_bytes": 225649659225,
+    "document_bytes_human": "210.2 GB",
+    "document_count": 93148,
+    "generated_at": "2026-09-07T01:18:59Z",
+    "noise_bytes": 643975796,
+    "noise_bytes_human": "614.1 MB",
+    "noise_count": 29341,
+    "object_count": 169671,
+    "pdf_bytes": 214371654297,
+    "pdf_bytes_human": "199.6 GB",
+    "pdf_count": 55832,
+    "total_bytes": 837685947435,
+    "total_bytes_human": "780.2 GB"
+  }
+}
